@@ -1,0 +1,23 @@
+{
+  "name": "@dillonchr/bankrupt",
+  "version": "1.0.0",
+  "description": "module for keeping track of paychecks and budgets",
+  "main": "bankrupt.js",
+  "scripts": {
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillonchr/bankrupt.git"
+  },
+  "author": "@dillonchr",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dillonchr/bankrupt/issues"
+  },
+  "homepage": "https://github.com/dillonchr/bankrupt#readme",
+  "dependencies": {
+    "@dillonchr/ephemeraldb": "^1.0.0",
+    "async": "^2.6.1"
+  }
+}
