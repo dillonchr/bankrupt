@@ -1,8 +1,8 @@
 const path = require("path");
 const fs = require("fs/promises");
 
-const { PAYCHECK_DIR: PaycheckDir } = process.env;
-const RegisterPath = path.join(PaycheckDir, "register.json");
+const { BANKRUPT_DIRNAME: BankruptDir } = process.env;
+const RegisterPath = path.join(BankruptDir, "register.json");
 
 let timerId = -1;
 
