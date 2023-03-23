@@ -32,7 +32,7 @@ function reset(id, amount = DefaultPaycheckAmt) {
     const splitBalance = prevBalance > 0 ? prevBalance * 0.1 : 0;
     const beginningBal = splitBalance + cut / ids.length;
     for (const budgetId of ids) {
-      reset(budgetId, Math.max(balance(budgetId), 0.0) + beginningBal);
+      reset(budgetId, balance(budgetId) + beginningBal);
     }
     amount -= cut;
   }
@@ -45,5 +45,5 @@ module.exports = {
   balance,
   spend,
   reset,
-  init: onInit
+  init: onInit,
 };
