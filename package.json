@@ -1,6 +1,6 @@
 {
   "name": "@dillonchr/bankrupt",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "module for keeping track of paychecks and budgets",
   "main": "bankrupt.js",
   "scripts": {
